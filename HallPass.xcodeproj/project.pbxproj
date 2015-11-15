@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6453F1C61BF91EAF00CB9EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */; };
+		6453F1C81BF91EAF00CB9EFE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1C71BF91EAF00CB9EFE /* RootViewController.swift */; };
+		6453F1CA1BF91EAF00CB9EFE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1C91BF91EAF00CB9EFE /* DataViewController.swift */; };
+		6453F1CC1BF91EAF00CB9EFE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1CB1BF91EAF00CB9EFE /* ModelController.swift */; };
+		6453F1CF1BF91EAF00CB9EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1CD1BF91EAF00CB9EFE /* Main.storyboard */; };
+		6453F1D11BF91EAF00CB9EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */; };
+		6453F1D41BF91EAF00CB9EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1D21BF91EAF00CB9EFE /* LaunchScreen.storyboard */; };
+		6453F1DF1BF91EAF00CB9EFE /* HallPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */; };
+		6453F1EA1BF91EAF00CB9EFE /* HallPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6453F1DB1BF91EAF00CB9EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6453F1BA1BF91EAF00CB9EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6453F1C11BF91EAF00CB9EFE;
+			remoteInfo = HallPass;
+		};
+		6453F1E61BF91EAF00CB9EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6453F1BA1BF91EAF00CB9EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6453F1C11BF91EAF00CB9EFE;
+			remoteInfo = HallPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6453F1C21BF91EAF00CB9EFE /* HallPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6453F1C71BF91EAF00CB9EFE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6453F1C91BF91EAF00CB9EFE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		6453F1CB1BF91EAF00CB9EFE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		6453F1CE1BF91EAF00CB9EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6453F1D31BF91EAF00CB9EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6453F1D51BF91EAF00CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6453F1DA1BF91EAF00CB9EFE /* HallPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassTests.swift; sourceTree = "<group>"; };
+		6453F1E01BF91EAF00CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6453F1E51BF91EAF00CB9EFE /* HallPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassUITests.swift; sourceTree = "<group>"; };
+		6453F1EB1BF91EB000CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6453F1BF1BF91EAF00CB9EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453F1D71BF91EAF00CB9EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453F1E21BF91EAF00CB9EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6453F1B91BF91EAF00CB9EFE = {
+			isa = PBXGroup;
+			children = (
+				6453F1C41BF91EAF00CB9EFE /* HallPass */,
+				6453F1DD1BF91EAF00CB9EFE /* HallPassTests */,
+				6453F1E81BF91EAF00CB9EFE /* HallPassUITests */,
+				6453F1C31BF91EAF00CB9EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6453F1C31BF91EAF00CB9EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6453F1C21BF91EAF00CB9EFE /* HallPass.app */,
+				6453F1DA1BF91EAF00CB9EFE /* HallPassTests.xctest */,
+				6453F1E51BF91EAF00CB9EFE /* HallPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6453F1C41BF91EAF00CB9EFE /* HallPass */ = {
+			isa = PBXGroup;
+			children = (
+				6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */,
+				6453F1C71BF91EAF00CB9EFE /* RootViewController.swift */,
+				6453F1C91BF91EAF00CB9EFE /* DataViewController.swift */,
+				6453F1CB1BF91EAF00CB9EFE /* ModelController.swift */,
+				6453F1CD1BF91EAF00CB9EFE /* Main.storyboard */,
+				6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */,
+				6453F1D21BF91EAF00CB9EFE /* LaunchScreen.storyboard */,
+				6453F1D51BF91EAF00CB9EFE /* Info.plist */,
+			);
+			path = HallPass;
+			sourceTree = "<group>";
+		};
+		6453F1DD1BF91EAF00CB9EFE /* HallPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */,
+				6453F1E01BF91EAF00CB9EFE /* Info.plist */,
+			);
+			path = HallPassTests;
+			sourceTree = "<group>";
+		};
+		6453F1E81BF91EAF00CB9EFE /* HallPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */,
+				6453F1EB1BF91EB000CB9EFE /* Info.plist */,
+			);
+			path = HallPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6453F1C11BF91EAF00CB9EFE /* HallPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6453F1EE1BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPass" */;
+			buildPhases = (
+				6453F1BE1BF91EAF00CB9EFE /* Sources */,
+				6453F1BF1BF91EAF00CB9EFE /* Frameworks */,
+				6453F1C01BF91EAF00CB9EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HallPass;
+			productName = HallPass;
+			productReference = 6453F1C21BF91EAF00CB9EFE /* HallPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6453F1D91BF91EAF00CB9EFE /* HallPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6453F1F11BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPassTests" */;
+			buildPhases = (
+				6453F1D61BF91EAF00CB9EFE /* Sources */,
+				6453F1D71BF91EAF00CB9EFE /* Frameworks */,
+				6453F1D81BF91EAF00CB9EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6453F1DC1BF91EAF00CB9EFE /* PBXTargetDependency */,
+			);
+			name = HallPassTests;
+			productName = HallPassTests;
+			productReference = 6453F1DA1BF91EAF00CB9EFE /* HallPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6453F1E41BF91EAF00CB9EFE /* HallPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6453F1F41BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPassUITests" */;
+			buildPhases = (
+				6453F1E11BF91EAF00CB9EFE /* Sources */,
+				6453F1E21BF91EAF00CB9EFE /* Frameworks */,
+				6453F1E31BF91EAF00CB9EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6453F1E71BF91EAF00CB9EFE /* PBXTargetDependency */,
+			);
+			name = HallPassUITests;
+			productName = HallPassUITests;
+			productReference = 6453F1E51BF91EAF00CB9EFE /* HallPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6453F1BA1BF91EAF00CB9EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Elias Perez";
+				TargetAttributes = {
+					6453F1C11BF91EAF00CB9EFE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					6453F1D91BF91EAF00CB9EFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6453F1C11BF91EAF00CB9EFE;
+					};
+					6453F1E41BF91EAF00CB9EFE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6453F1C11BF91EAF00CB9EFE;
+					};
+				};
+			};
+			buildConfigurationList = 6453F1BD1BF91EAF00CB9EFE /* Build configuration list for PBXProject "HallPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6453F1B91BF91EAF00CB9EFE;
+			productRefGroup = 6453F1C31BF91EAF00CB9EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6453F1C11BF91EAF00CB9EFE /* HallPass */,
+				6453F1D91BF91EAF00CB9EFE /* HallPassTests */,
+				6453F1E41BF91EAF00CB9EFE /* HallPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6453F1C01BF91EAF00CB9EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6453F1D41BF91EAF00CB9EFE /* LaunchScreen.storyboard in Resources */,
+				6453F1D11BF91EAF00CB9EFE /* Assets.xcassets in Resources */,
+				6453F1CF1BF91EAF00CB9EFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453F1D81BF91EAF00CB9EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453F1E31BF91EAF00CB9EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6453F1BE1BF91EAF00CB9EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6453F1C81BF91EAF00CB9EFE /* RootViewController.swift in Sources */,
+				6453F1CC1BF91EAF00CB9EFE /* ModelController.swift in Sources */,
+				6453F1CA1BF91EAF00CB9EFE /* DataViewController.swift in Sources */,
+				6453F1C61BF91EAF00CB9EFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453F1D61BF91EAF00CB9EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6453F1DF1BF91EAF00CB9EFE /* HallPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6453F1E11BF91EAF00CB9EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6453F1EA1BF91EAF00CB9EFE /* HallPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6453F1DC1BF91EAF00CB9EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6453F1C11BF91EAF00CB9EFE /* HallPass */;
+			targetProxy = 6453F1DB1BF91EAF00CB9EFE /* PBXContainerItemProxy */;
+		};
+		6453F1E71BF91EAF00CB9EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6453F1C11BF91EAF00CB9EFE /* HallPass */;
+			targetProxy = 6453F1E61BF91EAF00CB9EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6453F1CD1BF91EAF00CB9EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6453F1CE1BF91EAF00CB9EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6453F1D21BF91EAF00CB9EFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6453F1D31BF91EAF00CB9EFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6453F1EC1BF91EB000CB9EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6453F1ED1BF91EB000CB9EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6453F1EF1BF91EB000CB9EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HallPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6453F1F01BF91EB000CB9EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HallPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6453F1F21BF91EB000CB9EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HallPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HallPass.app/HallPass";
+			};
+			name = Debug;
+		};
+		6453F1F31BF91EB000CB9EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HallPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HallPass.app/HallPass";
+			};
+			name = Release;
+		};
+		6453F1F51BF91EB000CB9EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HallPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HallPass;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6453F1F61BF91EB000CB9EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HallPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HallPass;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6453F1BD1BF91EAF00CB9EFE /* Build configuration list for PBXProject "HallPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6453F1EC1BF91EB000CB9EFE /* Debug */,
+				6453F1ED1BF91EB000CB9EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6453F1EE1BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6453F1EF1BF91EB000CB9EFE /* Debug */,
+				6453F1F01BF91EB000CB9EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6453F1F11BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6453F1F21BF91EB000CB9EFE /* Debug */,
+				6453F1F31BF91EB000CB9EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6453F1F41BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6453F1F51BF91EB000CB9EFE /* Debug */,
+				6453F1F61BF91EB000CB9EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6453F1BA1BF91EAF00CB9EFE /* Project object */;
+}
