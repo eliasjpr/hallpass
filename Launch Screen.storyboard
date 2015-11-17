@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--HallPass-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController title="HallPass" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Dat-c4-SQA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2015 Elias Perez. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="20" y="695" width="374" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="JCG-Pk-egj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="9"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HallPass" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="20" y="284" width="374" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="s5g-DI-Ond"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="welcome" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="4Uq-FV-O0g">
+                                <rect key="frame" x="155" y="244" width="105" height="20"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="9kf-pX-ONm"/>
+                                    <constraint firstAttribute="width" constant="105" id="eib-si-hJl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start managing your hall passes quickly and efficently" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="AcE-yZ-WSw">
+                                <rect key="frame" x="91" y="342" width="231" height="77"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="3d1-kz-xgj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mark" translatesAutoresizingMaskIntoConstraints="NO" id="Z1i-WS-9xh">
+                                <rect key="frame" x="143" y="50" width="128" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="Crs-Ej-WEq"/>
+                                    <constraint firstAttribute="width" constant="128" id="cM9-o6-NGo"/>
+                                    <constraint firstAttribute="height" constant="128" id="f6I-bb-ule"/>
+                                    <constraint firstAttribute="height" constant="128" id="ft3-uz-krt"/>
+                                    <constraint firstAttribute="width" constant="128" id="l9E-Q3-FFS"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Crs-Ej-WEq"/>
+                                        <exclude reference="cM9-o6-NGo"/>
+                                        <exclude reference="f6I-bb-ule"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Uq-FV-O0g" firstAttribute="top" secondItem="Z1i-WS-9xh" secondAttribute="bottom" constant="66" id="10b-8R-vAW"/>
+                            <constraint firstItem="Z1i-WS-9xh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="143" id="1AM-Rd-LCm"/>
+                            <constraint firstItem="Z1i-WS-9xh" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="30" id="6dx-J8-94k"/>
+                            <constraint firstItem="AcE-yZ-WSw" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="8" symbolic="YES" id="6qE-RH-D2d"/>
+                            <constraint firstItem="Dat-c4-SQA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="7NJ-E0-hJ5"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" id="7Wg-pr-afz"/>
+                            <constraint firstItem="Dat-c4-SQA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DGe-ac-ucN"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="HbI-Bg-RaF"/>
+                            <constraint firstItem="4Uq-FV-O0g" firstAttribute="centerX" secondItem="Z1i-WS-9xh" secondAttribute="centerX" id="OI3-Wx-3De"/>
+                            <constraint firstItem="AcE-yZ-WSw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="71" id="Pzc-vE-2qg"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="obG-Y5-kRd" secondAttribute="leading" id="S3g-sD-1B6"/>
+                            <constraint firstAttribute="trailing" secondItem="Dat-c4-SQA" secondAttribute="trailing" id="TKk-Zt-9eE"/>
+                            <constraint firstItem="Dat-c4-SQA" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="Ue2-Fx-N9j"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerX" secondItem="4Uq-FV-O0g" secondAttribute="centerX" id="Yif-FA-qOb"/>
+                            <constraint firstItem="AcE-yZ-WSw" firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="gFM-mp-W9w"/>
+                            <constraint firstItem="Z1i-WS-9xh" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="61" id="geR-uU-IgS"/>
+                            <constraint firstAttribute="trailing" secondItem="Z1i-WS-9xh" secondAttribute="trailing" constant="143" id="hAQ-Id-S0q"/>
+                            <constraint firstItem="4Uq-FV-O0g" firstAttribute="top" secondItem="Z1i-WS-9xh" secondAttribute="bottom" constant="35" id="k8S-Cn-Or0"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" symbolic="YES" id="vDk-Em-V0H"/>
+                            <constraint firstItem="Dat-c4-SQA" firstAttribute="centerX" secondItem="AcE-yZ-WSw" secondAttribute="centerX" id="viR-no-Gpd"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="4Uq-FV-O0g" secondAttribute="bottom" constant="20" id="wJv-9A-r49"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1AM-Rd-LCm"/>
+                                <exclude reference="geR-uU-IgS"/>
+                                <exclude reference="hAQ-Id-S0q"/>
+                                <exclude reference="k8S-Cn-Or0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="750" height="1334"/>
+        <image name="mark" width="300" height="300"/>
+    </resources>
+</document>

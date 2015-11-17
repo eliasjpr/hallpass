@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6453F1C61BF91EAF00CB9EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */; };
-		6453F1C81BF91EAF00CB9EFE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1C71BF91EAF00CB9EFE /* RootViewController.swift */; };
-		6453F1CA1BF91EAF00CB9EFE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1C91BF91EAF00CB9EFE /* DataViewController.swift */; };
-		6453F1CC1BF91EAF00CB9EFE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1CB1BF91EAF00CB9EFE /* ModelController.swift */; };
-		6453F1CF1BF91EAF00CB9EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1CD1BF91EAF00CB9EFE /* Main.storyboard */; };
 		6453F1D11BF91EAF00CB9EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */; };
-		6453F1D41BF91EAF00CB9EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1D21BF91EAF00CB9EFE /* LaunchScreen.storyboard */; };
 		6453F1DF1BF91EAF00CB9EFE /* HallPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */; };
 		6453F1EA1BF91EAF00CB9EFE /* HallPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */; };
+		64AF1BF91BFABE60001FA752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BF81BFABE60001FA752 /* Main.storyboard */; };
+		64AF1BFB1BFAC006001FA752 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +35,7 @@
 /* Begin PBXFileReference section */
 		6453F1C21BF91EAF00CB9EFE /* HallPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6453F1C71BF91EAF00CB9EFE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		6453F1C91BF91EAF00CB9EFE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		6453F1CB1BF91EAF00CB9EFE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		6453F1CE1BF91EAF00CB9EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6453F1D31BF91EAF00CB9EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6453F1D51BF91EAF00CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6453F1DA1BF91EAF00CB9EFE /* HallPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassTests.swift; sourceTree = "<group>"; };
@@ -51,6 +43,8 @@
 		6453F1E51BF91EAF00CB9EFE /* HallPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassUITests.swift; sourceTree = "<group>"; };
 		6453F1EB1BF91EB000CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64AF1BF81BFABE60001FA752 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */,
-				6453F1C71BF91EAF00CB9EFE /* RootViewController.swift */,
-				6453F1C91BF91EAF00CB9EFE /* DataViewController.swift */,
-				6453F1CB1BF91EAF00CB9EFE /* ModelController.swift */,
-				6453F1CD1BF91EAF00CB9EFE /* Main.storyboard */,
 				6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */,
-				6453F1D21BF91EAF00CB9EFE /* LaunchScreen.storyboard */,
 				6453F1D51BF91EAF00CB9EFE /* Info.plist */,
+				64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */,
+				64AF1BF81BFABE60001FA752 /* Main.storyboard */,
 			);
 			path = HallPass;
 			sourceTree = "<group>";
@@ -199,6 +190,7 @@
 				TargetAttributes = {
 					6453F1C11BF91EAF00CB9EFE = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 865TQME2LE;
 					};
 					6453F1D91BF91EAF00CB9EFE = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -235,9 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6453F1D41BF91EAF00CB9EFE /* LaunchScreen.storyboard in Resources */,
+				64AF1BF91BFABE60001FA752 /* Main.storyboard in Resources */,
+				64AF1BFB1BFAC006001FA752 /* Launch Screen.storyboard in Resources */,
 				6453F1D11BF91EAF00CB9EFE /* Assets.xcassets in Resources */,
-				6453F1CF1BF91EAF00CB9EFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6453F1C81BF91EAF00CB9EFE /* RootViewController.swift in Sources */,
-				6453F1CC1BF91EAF00CB9EFE /* ModelController.swift in Sources */,
-				6453F1CA1BF91EAF00CB9EFE /* DataViewController.swift in Sources */,
 				6453F1C61BF91EAF00CB9EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,25 +288,6 @@
 			targetProxy = 6453F1E61BF91EAF00CB9EFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6453F1CD1BF91EAF00CB9EFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6453F1CE1BF91EAF00CB9EFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6453F1D21BF91EAF00CB9EFE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6453F1D31BF91EAF00CB9EFE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6453F1EC1BF91EB000CB9EFE /* Debug */ = {
@@ -405,10 +375,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HallPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +390,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HallPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -490,6 +468,7 @@
 				6453F1F01BF91EB000CB9EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6453F1F11BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPassTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +477,7 @@
 				6453F1F31BF91EB000CB9EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6453F1F41BF91EB000CB9EFE /* Build configuration list for PBXNativeTarget "HallPassUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +486,7 @@
 				6453F1F61BF91EB000CB9EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
