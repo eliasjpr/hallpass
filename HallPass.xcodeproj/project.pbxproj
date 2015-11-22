@@ -11,6 +11,8 @@
 		6453F1D11BF91EAF00CB9EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */; };
 		6453F1DF1BF91EAF00CB9EFE /* HallPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */; };
 		6453F1EA1BF91EAF00CB9EFE /* HallPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */; };
+		649946041BFFD472008FA73B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649945FF1BFFD44B008FA73B /* Alamofire.framework */; };
+		649946051BFFD472008FA73B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 649945FF1BFFD44B008FA73B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		64AF1BF91BFABE60001FA752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BF81BFABE60001FA752 /* Main.storyboard */; };
 		64AF1BFB1BFAC006001FA752 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */; };
 		64B5F3461BFBCAB6001D168F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5F3451BFBCAB6001D168F /* ViewController.swift */; };
@@ -33,7 +35,49 @@
 			remoteGlobalIDString = 6453F1C11BF91EAF00CB9EFE;
 			remoteInfo = HallPass;
 		};
+		649945FE1BFFD44B008FA73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		649946001BFFD44B008FA73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		649946021BFFD454008FA73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		649946061BFFD472008FA73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		649946081BFFD472008FA73B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				649946051BFFD472008FA73B /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6453F1C21BF91EAF00CB9EFE /* HallPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +90,7 @@
 		6453F1E51BF91EAF00CB9EFE /* HallPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassUITests.swift; sourceTree = "<group>"; };
 		6453F1EB1BF91EB000CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../../Desktop/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		64AF1BF81BFABE60001FA752 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		64B5F3451BFBCAB6001D168F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649946041BFFD472008FA73B /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +147,7 @@
 		6453F1C41BF91EAF00CB9EFE /* HallPass */ = {
 			isa = PBXGroup;
 			children = (
+				649945F91BFFD443008FA73B /* libraries */,
 				6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */,
 				6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */,
 				6453F1D51BF91EAF00CB9EFE /* Info.plist */,
@@ -131,6 +178,23 @@
 			path = HallPassUITests;
 			sourceTree = "<group>";
 		};
+		649945F91BFFD443008FA73B /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */,
+			);
+			name = libraries;
+			sourceTree = "<group>";
+		};
+		649945FA1BFFD44B008FA73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649945FF1BFFD44B008FA73B /* Alamofire.framework */,
+				649946011BFFD44B008FA73B /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +205,13 @@
 				6453F1BE1BF91EAF00CB9EFE /* Sources */,
 				6453F1BF1BF91EAF00CB9EFE /* Frameworks */,
 				6453F1C01BF91EAF00CB9EFE /* Resources */,
+				649946081BFFD472008FA73B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				649946031BFFD454008FA73B /* PBXTargetDependency */,
+				649946071BFFD472008FA73B /* PBXTargetDependency */,
 			);
 			name = HallPass;
 			productName = HallPass;
@@ -222,6 +289,12 @@
 			mainGroup = 6453F1B91BF91EAF00CB9EFE;
 			productRefGroup = 6453F1C31BF91EAF00CB9EFE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 649945FA1BFFD44B008FA73B /* Products */;
+					ProjectRef = 649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6453F1C11BF91EAF00CB9EFE /* HallPass */,
@@ -230,6 +303,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		649945FF1BFFD44B008FA73B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 649945FE1BFFD44B008FA73B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		649946011BFFD44B008FA73B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 649946001BFFD44B008FA73B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6453F1C01BF91EAF00CB9EFE /* Resources */ = {
@@ -298,6 +388,16 @@
 			isa = PBXTargetDependency;
 			target = 6453F1C11BF91EAF00CB9EFE /* HallPass */;
 			targetProxy = 6453F1E61BF91EAF00CB9EFE /* PBXContainerItemProxy */;
+		};
+		649946031BFFD454008FA73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 649946021BFFD454008FA73B /* PBXContainerItemProxy */;
+		};
+		649946071BFFD472008FA73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 649946061BFFD472008FA73B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,8 +487,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HallPass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -402,8 +504,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HallPass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

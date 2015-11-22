@@ -21,10 +21,21 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        super.performSegueWithIdentifier("go_to_login", sender: self)
+        
+        let preferences: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        let authenticated: Bool = preferences.boolForKey("authenticated") as Bool
+        
+        if(authenticated){
+            self.username.text = preferences.valueForKey("full_name")  as? String
+        }
+        else {
+            super.performSegueWithIdentifier("go_to_login", sender: self)
+        }
     }
 
     @IBAction func logout(sender: UIButton) {
+        let appDomain = NSBundle.mainBundle().bundleIdentifier
+        NSUserDefaults.standardUserDefaults().removePersistentDomainForName(appDomain!)
         super.performSegueWithIdentifier("go_to_login", sender: self)
     }
 }
