@@ -13,6 +13,9 @@
 		6453F1EA1BF91EAF00CB9EFE /* HallPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */; };
 		649946041BFFD472008FA73B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649945FF1BFFD44B008FA73B /* Alamofire.framework */; };
 		649946051BFFD472008FA73B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 649945FF1BFFD44B008FA73B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		64AB7E7F1C1486E500370798 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AB7E7E1C1486E500370798 /* StudentsViewController.swift */; };
+		64AD4D641C14EFF600A006C7 /* StudentsOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD4D631C14EFF600A006C7 /* StudentsOutViewController.swift */; };
+		64AD4D671C15CB9400A006C7 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD4D661C15CB9400A006C7 /* student.swift */; };
 		64AF1BF91BFABE60001FA752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BF81BFABE60001FA752 /* Main.storyboard */; };
 		64AF1BFB1BFAC006001FA752 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */; };
 		64B5F3461BFBCAB6001D168F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5F3451BFBCAB6001D168F /* ViewController.swift */; };
@@ -91,6 +94,9 @@
 		6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassUITests.swift; sourceTree = "<group>"; };
 		6453F1EB1BF91EB000CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../../Desktop/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		64AB7E7E1C1486E500370798 /* StudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		64AD4D631C14EFF600A006C7 /* StudentsOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsOutViewController.swift; sourceTree = "<group>"; };
+		64AD4D661C15CB9400A006C7 /* student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
 		64AF1BF81BFABE60001FA752 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		64B5F3451BFBCAB6001D168F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +133,7 @@
 		6453F1B91BF91EAF00CB9EFE = {
 			isa = PBXGroup;
 			children = (
+				64AD4D661C15CB9400A006C7 /* student.swift */,
 				6453F1C41BF91EAF00CB9EFE /* HallPass */,
 				6453F1DD1BF91EAF00CB9EFE /* HallPassTests */,
 				6453F1E81BF91EAF00CB9EFE /* HallPassUITests */,
@@ -156,6 +163,8 @@
 				64B5F3451BFBCAB6001D168F /* ViewController.swift */,
 				64B5F3471BFBCE26001D168F /* LoginViewController.swift */,
 				64B5F3491BFBCFCA001D168F /* SignUpViewController.swift */,
+				64AB7E7E1C1486E500370798 /* StudentsViewController.swift */,
+				64AD4D631C14EFF600A006C7 /* StudentsOutViewController.swift */,
 			);
 			path = HallPass;
 			sourceTree = "<group>";
@@ -354,8 +363,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B5F3481BFBCE26001D168F /* LoginViewController.swift in Sources */,
+				64AD4D641C14EFF600A006C7 /* StudentsOutViewController.swift in Sources */,
 				64B5F3461BFBCAB6001D168F /* ViewController.swift in Sources */,
 				64B5F34A1BFBCFCA001D168F /* SignUpViewController.swift in Sources */,
+				64AD4D671C15CB9400A006C7 /* student.swift in Sources */,
+				64AB7E7F1C1486E500370798 /* StudentsViewController.swift in Sources */,
 				6453F1C61BF91EAF00CB9EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
