@@ -11,16 +11,20 @@
 		6453F1D11BF91EAF00CB9EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */; };
 		6453F1DF1BF91EAF00CB9EFE /* HallPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1DE1BF91EAF00CB9EFE /* HallPassTests.swift */; };
 		6453F1EA1BF91EAF00CB9EFE /* HallPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */; };
+		645B3CCA1C162B3600D125B3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645B3CC91C162B3600D125B3 /* Helpers.swift */; };
+		645B3CD21C1635E200D125B3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645B3CD11C1635E200D125B3 /* SwiftyJSON.swift */; };
 		649946041BFFD472008FA73B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649945FF1BFFD44B008FA73B /* Alamofire.framework */; };
 		649946051BFFD472008FA73B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 649945FF1BFFD44B008FA73B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		64AB7E7F1C1486E500370798 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AB7E7E1C1486E500370798 /* StudentsViewController.swift */; };
 		64AD4D641C14EFF600A006C7 /* StudentsOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD4D631C14EFF600A006C7 /* StudentsOutViewController.swift */; };
-		64AD4D671C15CB9400A006C7 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD4D661C15CB9400A006C7 /* student.swift */; };
+		64AD4D671C15CB9400A006C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD4D661C15CB9400A006C7 /* User.swift */; };
 		64AF1BF91BFABE60001FA752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BF81BFABE60001FA752 /* Main.storyboard */; };
 		64AF1BFB1BFAC006001FA752 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */; };
 		64B5F3461BFBCAB6001D168F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5F3451BFBCAB6001D168F /* ViewController.swift */; };
 		64B5F3481BFBCE26001D168F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5F3471BFBCE26001D168F /* LoginViewController.swift */; };
 		64B5F34A1BFBCFCA001D168F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5F3491BFBCFCA001D168F /* SignUpViewController.swift */; };
+		64EAF2101C1867BB00461021 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EAF20F1C1867BB00461021 /* NetworkOperation.swift */; };
+		64EAF2131C187B9B00461021 /* HallPassService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EAF2121C187B9B00461021 /* HallPassService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		644546701C171E4F005142B5 /* HallPass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HallPass-Bridging-Header.h"; sourceTree = "<group>"; };
 		6453F1C21BF91EAF00CB9EFE /* HallPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6453F1C51BF91EAF00CB9EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6453F1D01BF91EAF00CB9EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,15 +98,20 @@
 		6453F1E51BF91EAF00CB9EFE /* HallPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6453F1E91BF91EAF00CB9EFE /* HallPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallPassUITests.swift; sourceTree = "<group>"; };
 		6453F1EB1BF91EB000CB9EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645B3CC91C162B3600D125B3 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		645B3CCB1C162FDC00D125B3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		645B3CD11C1635E200D125B3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		649945ED1BFFD418008FA73B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../../Desktop/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		64AB7E7E1C1486E500370798 /* StudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 		64AD4D631C14EFF600A006C7 /* StudentsOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsOutViewController.swift; sourceTree = "<group>"; };
-		64AD4D661C15CB9400A006C7 /* student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		64AD4D661C15CB9400A006C7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		64AF1BF81BFABE60001FA752 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		64AF1BFA1BFAC006001FA752 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		64B5F3451BFBCAB6001D168F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64B5F3471BFBCE26001D168F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		64B5F3491BFBCFCA001D168F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		64EAF20F1C1867BB00461021 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		64EAF2121C187B9B00461021 /* HallPassService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HallPassService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,11 +143,16 @@
 		6453F1B91BF91EAF00CB9EFE = {
 			isa = PBXGroup;
 			children = (
-				64AD4D661C15CB9400A006C7 /* student.swift */,
+				64EAF2121C187B9B00461021 /* HallPassService.swift */,
+				64EAF20F1C1867BB00461021 /* NetworkOperation.swift */,
+				645B3CC91C162B3600D125B3 /* Helpers.swift */,
+				645B3CD11C1635E200D125B3 /* SwiftyJSON.swift */,
+				64AD4D661C15CB9400A006C7 /* User.swift */,
 				6453F1C41BF91EAF00CB9EFE /* HallPass */,
 				6453F1DD1BF91EAF00CB9EFE /* HallPassTests */,
 				6453F1E81BF91EAF00CB9EFE /* HallPassUITests */,
 				6453F1C31BF91EAF00CB9EFE /* Products */,
+				644546701C171E4F005142B5 /* HallPass-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +180,7 @@
 				64B5F3491BFBCFCA001D168F /* SignUpViewController.swift */,
 				64AB7E7E1C1486E500370798 /* StudentsViewController.swift */,
 				64AD4D631C14EFF600A006C7 /* StudentsOutViewController.swift */,
+				645B3CCB1C162FDC00D125B3 /* MyPlayground.playground */,
 			);
 			path = HallPass;
 			sourceTree = "<group>";
@@ -363,12 +379,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B5F3481BFBCE26001D168F /* LoginViewController.swift in Sources */,
+				64EAF2131C187B9B00461021 /* HallPassService.swift in Sources */,
 				64AD4D641C14EFF600A006C7 /* StudentsOutViewController.swift in Sources */,
 				64B5F3461BFBCAB6001D168F /* ViewController.swift in Sources */,
+				645B3CCA1C162B3600D125B3 /* Helpers.swift in Sources */,
 				64B5F34A1BFBCFCA001D168F /* SignUpViewController.swift in Sources */,
-				64AD4D671C15CB9400A006C7 /* student.swift in Sources */,
+				64AD4D671C15CB9400A006C7 /* User.swift in Sources */,
+				645B3CD21C1635E200D125B3 /* SwiftyJSON.swift in Sources */,
 				64AB7E7F1C1486E500370798 /* StudentsViewController.swift in Sources */,
 				6453F1C61BF91EAF00CB9EFE /* AppDelegate.swift in Sources */,
+				64EAF2101C1867BB00461021 /* NetworkOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -509,6 +530,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HallPass-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -517,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -526,6 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eliasjperez.HallPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HallPass-Bridging-Header.h";
 			};
 			name = Release;
 		};

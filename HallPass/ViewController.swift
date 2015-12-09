@@ -25,11 +25,8 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidAppear(animated: Bool) {
         
-        let preferences: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        let authenticated: Bool = preferences.boolForKey("authenticated") as Bool
-        
-        if(authenticated){
-            self.username.text = preferences.valueForKey("full_name")  as? String
+        if ( User().authenticated == true){
+            self.username.text = User().full_name
         }
         else {
             super.performSegueWithIdentifier("go_to_login", sender: self)
@@ -47,6 +44,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("hall_pass_type", forIndexPath: indexPath)
         let (pass_type, pass_name) = type_of_passes[indexPath.row]
+        print( User().email?.md5())
         
         cell.backgroundColor = UIColor.clearColor()
         cell.textLabel!.text = pass_name

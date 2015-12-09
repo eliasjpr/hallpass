@@ -7,11 +7,9 @@
 //
 
 import UIKit
-import Alamofire
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController  {
     
-    let BASE_URL: String = "https://hall-pass.herokuapp.com/"
     
     @IBOutlet weak var password_field: UITextField!
     @IBOutlet weak var email_address: UITextField!
@@ -24,59 +22,23 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-   
-    
-
     @IBAction func signin_user(sender: UIButton) {
+        let params = ["email": email_address.text!, "password": password_field.text!]
         
-        //let url = BASE_URL + "auth/login"
-        let params = [ "email": email_address.text!, "password": password_field.text! ]
-        let url = BASE_URL + "auth/login"
-        let preferences: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        let is_valid = validateLoginInputs();
-        // Validate inputs
-        if(  is_valid ){
-            // Authenticate user
-            Alamofire.request(.POST, url , parameters: params, encoding:.JSON)
-                .responseJSON{ response in
-                    
-                    guard let auth = response.result.value else {
-                        print(response.result)
-                        let alertView:UIAlertView = UIAlertView()
-                        alertView.title = "Sign in Failed!"
-                        alertView.message = "Connection Failed"
-                        alertView.delegate = self
-                        alertView.addButtonWithTitle("OK")
-                        alertView.show()
-                        return
-                    }
-                    
-                    let user = auth["user"]
-                    let full_name = user!!["full_name"]
-                    
-                    preferences.setObject( full_name, forKey: "full_name")
-                    preferences.setBool( true, forKey: "authenticated")
-                    preferences.synchronize()
-                    
-                    self.dismissViewControllerAnimated(true, completion: nil)
+        let modal = UIView( frame: CGRect(x: self.view.frame.midX - 90, y: self.view.frame.midY - 25 , width: 180, height: 50))
+        self.show_activity_indicator("Signing in...", true, modal: modal)
+        
+        HallPassService.login(params) { (let sign_in_user) in
+            if let _ = sign_in_user {
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }
+            else {
+                self.dismiss_activity_indicator(modal)
+                self.alert("Sign in failed!", message: "Connection Failed")
             }
         }
+        
+        
     }
     
-    func validateLoginInputs() ->Bool {
-        if( (email_address.text == "") || (password_field.text == "" ) ){
-            let alertView:UIAlertView = UIAlertView()
-            alertView.title = "Sign in Failed!"
-            alertView.message = "Please enter Username and Password"
-            alertView.delegate = self
-            alertView.addButtonWithTitle("OK")
-            alertView.show()
-            
-            return false
-        }
-        return true
-    }
-    
-    
-
 }
